@@ -1,0 +1,34 @@
+let mapleader = " "
+set nu
+set rnu
+
+" Clipboard
+nmap <leader>c :action $Copy<CR>
+nmap <leader>p :action $Paste<CR>
+
+
+""" Plugins
+set commentary
+
+" File Exploring
+nmap <leader>ff <action>(GotoFile)
+
+" Split
+nmap <leader>sv <C-w>v
+nmap <leader>sh <C-w>s
+
+nmap <leader>sl <C-w>l 
+nmap <leader>sh <C-w>h
+nmap <leader>sj <C-w>j
+nmap <leader>sk <C-w>k 
+
+nmap <C-k> :tabnext<CR>
+nmap <C-j> :tabprev<CR>
+
+nmap <C-l> :tabnext<CR>
+nmap <C-h> :tabprev<CR>
+
+nmap <leader>sx :action Unsplit<CR>
+
+" Go to code
+nmap <leader>gd <Action>(GotoDeclaration)
