@@ -9,3 +9,7 @@
 
     cp -r ideavimrc ~/.ideavimrc
 ```
+
+## Applications and Versions
+
+- neovim = `0.11.5`
