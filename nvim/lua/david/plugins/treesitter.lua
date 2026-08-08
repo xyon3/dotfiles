@@ -23,36 +23,29 @@ return {
 			autotag = { enable = true },
 
 			ensure_installed = {
-                -- Web
 				"json",
-				"html",
-				"css",
 				"javascript",
 				"typescript",
 				"tsx",
-				"graphql",
 				"php",
-				"query",
-				"lua",
-				"svelte",
-
-                -- Configurations
-				"yaml",
-				"gitignore",
-
-                -- Build tools
-				"dockerfile",
 				"cmake",
-				"vimdoc",
-
-				"vim",
-				"bash",
-				"c",
-				"go",
-
-                -- Markdown
+				"yaml",
+				"html",
+				"css",
+				"prisma",
 				"markdown",
 				"markdown_inline",
+				"svelte",
+				"graphql",
+				"bash",
+				"lua",
+				"vim",
+				"dockerfile",
+				"gitignore",
+				"query",
+				"vimdoc",
+				"c",
+				"go",
 			},
 		})
 	end,

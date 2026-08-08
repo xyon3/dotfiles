@@ -1,0 +1,41 @@
+{
+  "vim": {
+    "toggle_relative_line_numbers": false,
+  },
+  "relative_line_numbers": "enabled",
+  "project_panel": {
+    "dock": "left",
+  },
+  "outline_panel": {
+    "dock": "left",
+  },
+  "collaboration_panel": {
+    "dock": "left",
+  },
+  "agent": {
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": [],
+  },
+  "git_panel": {
+    "dock": "left",
+  },
+  "vim_mode": true,
+  "icon_theme": {
+    "mode": "system",
+    "light": "Material Icon Theme",
+    "dark": "Material Icon Theme",
+  },
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "One Dark Pro",
+  },
+  "languages": {
+    "PHP": {
+      "language_servers": ["intelephense", "!phpactor"],
+    },
+  },
+}

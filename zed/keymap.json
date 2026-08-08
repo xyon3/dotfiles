@@ -1,0 +1,24 @@
+[
+  {
+    "context": "Editor && vim_mode == normal && !VimWaiting && !menu",
+    "bindings": {
+      "space c a": "pane::CloseAllItems",
+      "space s v": "pane::SplitRight",
+      "space s b": "pane::SplitDown",
+
+      "space s h": "workspace::ActivatePaneLeft",
+      "space s j": "workspace::ActivatePaneDown",
+      "space s k": "workspace::ActivatePaneUp",
+      "space s l": "workspace::ActivatePaneRight",
+
+      "space f f": "file_finder::Toggle",
+    },
+  },
+  {
+    "context": "Terminal",
+    "bindings": {
+      "cmd-h": "workspace::ActivatePaneLeft",
+      "cmd-l": "workspace::ActivatePaneRight",
+    },
+  },
+]
