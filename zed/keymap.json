@@ -12,6 +12,8 @@
       "space s l": "workspace::ActivatePaneRight",
 
       "space f f": "file_finder::Toggle",
+
+      "cmd-z": "workspace::ToggleBottomDock"
     },
   },
   {
@@ -19,6 +21,8 @@
     "bindings": {
       "cmd-h": "workspace::ActivatePaneLeft",
       "cmd-l": "workspace::ActivatePaneRight",
+
+      "cmd-z": "workspace::ToggleBottomDock"
     },
   },
 ]
