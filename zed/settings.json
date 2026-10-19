@@ -1,41 +1,76 @@
 {
-  "vim": {
-    "toggle_relative_line_numbers": false,
-  },
-  "relative_line_numbers": "enabled",
-  "project_panel": {
-    "dock": "left",
-  },
-  "outline_panel": {
-    "dock": "left",
-  },
-  "collaboration_panel": {
-    "dock": "left",
-  },
-  "agent": {
-    "dock": "right",
-    "favorite_models": [],
-    "model_parameters": [],
-  },
-  "git_panel": {
-    "dock": "left",
-  },
-  "vim_mode": true,
-  "icon_theme": {
-    "mode": "system",
-    "light": "Material Icon Theme",
-    "dark": "Material Icon Theme",
-  },
-  "ui_font_size": 16,
-  "buffer_font_size": 15,
-  "theme": {
-    "mode": "system",
-    "light": "One Light",
-    "dark": "One Dark Pro",
-  },
-  "languages": {
-    "PHP": {
-      "language_servers": ["intelephense", "!phpactor"],
+    "features": {
+        "copilot": true
     },
-  },
+    "cli_default_open_behavior": "new_window",
+    "dev_container_use_buildkit": false,
+    "agent_servers": {
+        "codex-acp": {
+            "default_config_options": {
+                "reasoning_effort": "high",
+                "collaboration_mode": "default",
+                "mode": "read-only",
+                "model": "gpt-6-luna"
+            },
+            "type": "registry"
+        }
+    },
+    "vim": {
+        "toggle_relative_line_numbers": false
+    },
+    "relative_line_numbers": "enabled",
+    "project_panel": {
+        "dock": "left"
+    },
+    "outline_panel": {
+        "dock": "left"
+    },
+    "collaboration_panel": {
+        "dock": "left"
+    },
+    "agent": {
+        "dock": "left",
+        "favorite_models": [],
+        "model_parameters": []
+    },
+    "git_panel": {
+        "dock": "left"
+    },
+    "vim_mode": true,
+    "icon_theme": {
+        "mode": "system",
+        "light": "Material Icon Theme",
+        "dark": "Material Icon Theme"
+    },
+    "ui_font_size": 16,
+    "buffer_font_size": 16,
+    "buffer_font_family": "JetBrainsMono Nerd Font",
+    "agent_ui_font_size": 16,
+    "agent_ui_font_family": "JetBrainsMono Nerd Font",
+    "theme": {
+        "mode": "system",
+        "light": "Catppuccin Latte",
+        "dark": "One Dark Pro"
+    },
+    "languages": {
+        "PHP": {
+            "language_servers": ["intelephense", "!phpactor"],
+            "format_on_save": "off"
+        },
+        "Python": {
+            "language_servers": ["basedpyright", "ruff"],
+            "format_on_save": "off"
+        }
+    },
+    "lsp": {
+        "basedpyright": {
+            "settings": {
+                "basedpyright": {
+                    "analysis": {
+                        "typeCheckingMode": "standard"
+                    }
+                }
+            }
+        }
+    }
 }
